@@ -1,1 +1,0 @@
-This is a sample project that aims at demonstrating operational and conceptual operating frameworks in Azure DevOPS related to data platforms and data engineering patters.
