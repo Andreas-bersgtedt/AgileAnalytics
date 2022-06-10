@@ -39,7 +39,7 @@ G --6 PR to ADF Release --> H[Features in UAT];
 
 ![image.png](/.attachments/image-c7e2c2a9-9d19-470d-b404-546c75481c63.png)
 
-3. Once the developer has built and tested their pipelines in the use story the raises a _**pull request (PR)**_ to merge into the Feature branch into Sprint Branch...........................................
+3. Once the developer has built and tested their pipelines in the use story the raises a _**pull request (PR)**_ to merge into the Feature branch into Sprint Branch.
 
 ![image.png](/.attachments/image-90f879ed-8833-4c66-bc2e-6d7b11558809.png)
 
