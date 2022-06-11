@@ -14,8 +14,13 @@ The feature branching pattern is as demonstrated below:
 
 
 ##Process Diagram
+![image.png](/.attachments/image-01043a8c-8fb6-453b-b73b-8f6125c3cecd.png)
+
+
+```
 ::: mermaid
  graph LR;
+
  A[Sprint Planning] --1 Sprint Branch --> B[Work Start];
 B --2 Feature A Branch --> C[Feature A work done];
 B --2 Feature B Branch --> D[Feature B work done];
@@ -24,7 +29,12 @@ D --3 PR to Sprint Branch--> E;
 E --4 PR to Main --> F[Sprint Retro];
 F --5 PR Approved--> G[Publish to Main];
 G --6 PR to ADF Release --> H[Features in UAT];
+
+
+
 :::
+```
+
 
 
 
