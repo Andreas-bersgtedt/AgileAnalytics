@@ -1,10 +1,32 @@
-[[_TOC_]]
+# Summary
+This documents a few popular branch strategies and their appropriate implementation scenarios,
+in the table below you can find a quick breakdown of these and how they might suit your operation:
 
 
-# **Azure Data Factory**
+| **Strategy** | **Strength** | **Weakness** | **Notes** |
+|--|--|--|--|
+| **Single/No Branch Strategy** | Simple to manage where there is a single developer per tech stack/target system. | Can create complex merge conflicts that can be extremely hard to resolve (depending on technology stack), can make it hard to roll back defective released features. | This strategy is primarily designed for small, isolated teams with no to little collaboration. |
+| **Feature Branch Strategy** | Creates granular control where individual features in small to large teams with cross stack responsibility can easily manage the release and rollback of features. | Does require well developed agile processes and procedures. | This strategy aligns most with professional agile teams and is the most recommended process. |
+| **Sprint Branch Strategy** | Fairly simple to implement and fairly simple to manage, it is a traditional DevOPS strategy that generally aligns with software development teams. | Can cause merge conflicts during the commit process, this is largely dependent on the target technology or stack. | When working in non-compiled environments where build |
 
 
-When Working with the CI/CD integrated Azure Data Factory it is important to understand that all User stories that are being worked on require a feature branch per story. 
+Regardless of what strategy we use, we must always work with the concept of a **_release branch_**, this branch creates the isolation layer between working code and build and release pipelines.
+
+Below is a set of examples of how this would look in a feature branch scenario:
+
+![image.png](/.attachments/image-6432f7ad-716e-47ef-9e46-f7834d8c0686.png)
+
+
+
+#Examples by Target stack
+
+Below is implementation scenarios for Azure Data Factory / Synapse Analytics Workspaces, Azure SQL DB in Visual Studio SSDT. 
+
+
+## **Azure Data Factory / Synapse Analytics Workspaces**
+
+
+When Working with the CI/CD integrated Azure Data Factory / Synapse Analytics Workspaces it is important to understand that all User stories that are being worked on require a feature branch per story. 
 
 This means that each User story is worked on in isolation and this will minimize the possibility of merge conflicts.
 
@@ -15,25 +37,6 @@ The feature branching pattern is as demonstrated below:
 
 ##Process Diagram
 ![image.png](/.attachments/image-01043a8c-8fb6-453b-b73b-8f6125c3cecd.png)
-
-
-```
-::: mermaid
- graph LR;
-
- A[Sprint Planning] --1 Sprint Branch --> B[Work Start];
-B --2 Feature A Branch --> C[Feature A work done];
-B --2 Feature B Branch --> D[Feature B work done];
-C --3 PR to Sprint Branch--> E[Merge to Sprint];
-D --3 PR to Sprint Branch--> E;
-E --4 PR to Main --> F[Sprint Retro];
-F --5 PR Approved--> G[Publish to Main];
-G --6 PR to ADF Release --> H[Features in UAT];
-
-
-
-:::
-```
 
 
 
