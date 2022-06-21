@@ -6,6 +6,15 @@ It is a collection of best practices that has been developed and desighned by th
 
 
 
+The documentation is broken up in two sections:
+
+1. [An Introduction to agile development practices](./Project-Overview/An-Introduction-to-agile-development-practices.md)
+2. [Agile Patterns and DevOPS processes](./Project-Overview/Agile-Patterns-and-DevOPS-processes)
+
+
+
+
+
 to collaborate on this project please contact Andreas Bersgtedt via DM on twitter @AndreasBergstedt
 
 
