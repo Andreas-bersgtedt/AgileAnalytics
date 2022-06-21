@@ -11,27 +11,27 @@ in this document we are going to review some of the most prominent processes bel
 
 
 
-#Triggers and Gates
+# Triggers and Gates
 
 In order for us to initiate a process in our CI/CD Pipeline flow we need triggers and gates, **_triggers_** initiate and **_gates_** act as semaphores that provide appropriate control in the flow of the process.
 
-##Triggers
+## Triggers
 
 There can be many triggers in a pipeline, one of the most common triggers are the **_build trigger_** in the CI Pipeline
 
-#The CI Pipeline
+# The CI Pipeline
 
-##Build
+## Build
 
-##Testing
+## Testing
 
-#The CD Pipeline
+# The CD Pipeline
 
-##Review
+## Review
 
-##StageDeployment
+## Stage Deployment
 
-##Production Release
+## Production Release
 
 
 
