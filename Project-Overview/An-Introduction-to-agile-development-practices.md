@@ -1,6 +1,6 @@
-This page contains a summary of the history of Agile operatin processes and principles.
+**_This page contains a summary of the history of Agile operating processes and principles._**
 
-[[_TOC_]]
+
 
 
 # Introduction
