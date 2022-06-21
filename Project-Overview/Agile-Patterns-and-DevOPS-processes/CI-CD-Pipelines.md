@@ -32,3 +32,11 @@ There can be many triggers in a pipeline, one of the most common triggers are th
 ##StageDeployment
 
 ##Production Release
+
+
+
+
+
+
+
+[Back](#javascript:history.back())

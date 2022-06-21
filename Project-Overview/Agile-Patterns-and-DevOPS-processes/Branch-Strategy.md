@@ -61,3 +61,8 @@ The feature branching pattern is as demonstrated below:
 6. The CI/**CD** release pipeline deploys to the UAT Factory
 
 
+
+
+[Back](#javascript:history.back())
+
+

@@ -17,4 +17,8 @@ the agile development practices are the operational business practice of a team 
 
 
 _**Example of a Lean Agile RACI:**_
+
 ![image.png](/.attachments/image-652b9c1f-cc5f-476b-bab3-09e69817f7fe.png)
+
+
+[Back](#javascript:history.back())
