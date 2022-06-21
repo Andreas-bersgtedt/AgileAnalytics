@@ -6,8 +6,8 @@ in the table below you can find a quick breakdown of these and how they might su
 | **Strategy** | **Strength** | **Weakness** | **Notes** |
 |--|--|--|--|
 | **Single/No Branch Strategy** | Simple to manage where there is a single developer per tech stack/target system. | Can create complex merge conflicts that can be extremely hard to resolve (depending on technology stack), can make it hard to roll back defective released features. | This strategy is primarily designed for small, isolated teams with no to little collaboration. |
-| **Feature Branch Strategy** | Creates granular control where individual features in small to large teams with cross stack responsibility can easily manage the release and rollback of features. | Does require well developed agile processes and procedures. | This strategy aligns most with professional agile teams and is the most recommended process. |
-| **Sprint Branch Strategy** | Fairly simple to implement and fairly simple to manage, it is a traditional DevOPS strategy that generally aligns with software development teams. | Can cause merge conflicts during the commit process, this is largely dependent on the target technology or stack. | When working in non-compiled environments where build |
+| **Feature Branch Strategy** | Creates granular control of individual features where small to large teams with cross stack responsibility can easily manage the release and rollback of individual features. | Does require well developed agile processes and procedures. | This strategy aligns most with professional agile teams and is the most recommended process. |
+| **Sprint Branch Strategy** | Fairly simple to implement and fairly simple to manage, it is a traditional DevOPS strategy that generally aligns with software development teams. | Can cause merge conflicts during the pull requests, this is largely dependent on the target technology or stack. | When working in non-compiled environments where build the build manifests are managed in the compiler and not in the IDE this makes this approach the ideal choice. |
 
 
 Regardless of what strategy we use, we must always work with the concept of a **_release branch_**, this branch creates the isolation layer between working code and build and release pipelines.
@@ -18,7 +18,7 @@ Below is a set of examples of how this would look in a feature branch scenario:
 
 
 
-#Examples by Target stack
+# Examples by Target stack
 
 Below is implementation scenarios for Azure Data Factory / Synapse Analytics Workspaces, Azure SQL DB in Visual Studio SSDT. 
 
@@ -35,13 +35,15 @@ The feature branching pattern is as demonstrated below:
 
 
 
-##Process Diagram
+## Process Diagram
+
 ![image.png](/.attachments/image-01043a8c-8fb6-453b-b73b-8f6125c3cecd.png)
 
 
 
 
-##Process Details:
+## Process Details:
+
 1. At start of every sprint the team lead created a sprint branch based on _**release branch**_ using the following naming convention:
     **_{SprintName}-{YYYYMMDD}_**
 
