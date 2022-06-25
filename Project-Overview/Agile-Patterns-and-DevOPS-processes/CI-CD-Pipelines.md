@@ -17,7 +17,11 @@ In order for us to initiate a process in our CI/CD Pipeline flow we need trigger
 
 ## Triggers
 
-There can be many triggers in a pipeline, one of the most common triggers are the **_build trigger_** in the CI Pipeline
+There can be many triggers in a pipeline, one of the most common triggers are the **_build trigger_** in the CI Pipeline,
+This is normally based on a merge action from a pull request and possibly a path filter, in other words PR to merge main branch into the **_release branch_** where a specific folder is affected.
+
+## Gates
+in order for us to control processes that has potential business risk associated with them such as a deployment action etc, we require signoff and acceptance of responsibility. 
 
 # The CI Pipeline
 
