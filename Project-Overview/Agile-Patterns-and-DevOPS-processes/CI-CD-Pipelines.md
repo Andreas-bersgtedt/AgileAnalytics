@@ -69,6 +69,6 @@ Deploying into a Stage environment is generally meant to provide a pre-productio
 
 ## Production Release
 
-The final stage in the CD pipeline is the release into production, dep
+The final stage in the CD pipeline is the release into production, this is as it sounds, once we get to this stage all previous stages of the CI/CD pipeline has successfully completed and it should be safe for the code to now be introduced for consumption.
 
 [Back](#javascript:history.back())
