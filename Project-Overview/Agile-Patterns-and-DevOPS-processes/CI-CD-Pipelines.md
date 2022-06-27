@@ -25,6 +25,9 @@ In order for us to control processes that has potential business risk associated
 
 # The CI Pipeline
 
+![image.png](/.attachments/image-a9e9a507-986b-4691-93ee-90a8322df9f6.png)
+
+
 **_The need for continuous integration(CI) between development and production can be described by the following illustration:_**
 
 _When embarking on a change, a developer takes a copy of the current code base on which to work. As other developers submit changed code to the source code repository, this copy gradually ceases to reflect the repository code. Not only can the existing code base change, but new code can be added as well as new libraries, and other resources that create dependencies, and potential conflicts._
@@ -49,6 +52,8 @@ We also use the build pipeline to execute some of the fundamental unit tests suc
 Unlike the fundamental tests that are completed in the Build process testing in the test stage is functional testing with agreed test outcomes and serves as a gate for the code to be surfaced for final acceptance testing of the product by a customer representative.
 
 # The CD Pipeline
+
+![image.png](/.attachments/image-5dfeba26-d9da-41a5-bce2-1d746496fcc2.png)
 
 Continuous deployment(CD) pipeline is a software engineering approach in which software functionalities are delivered frequently through automated deployments. 
 CD contrasts with continuous delivery, a similar approach in which software functionalities are also frequently delivered and deemed to be potentially capable of being deployed but are actually not deployed, _continuous delivery is what happens after the Build process publishes the build artefact_.
