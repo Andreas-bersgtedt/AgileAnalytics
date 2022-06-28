@@ -3,6 +3,7 @@ If the Agile Manifesto is the founding principles that define why we do what we 
 
 The origins of the name DevOPS is generally agreed as being coined by Patrick Debois in 2009 during his presentation at his however it is important to understand that DevOPS has its origin from Grady Brooch's publication in 1991 called Object Oriented Analysis and Design With Applications, this publication as revised in 1994 sets the foundation for the Continuous Integration framework (CI) in the form of the Brooch method.
 
+![image.png](/.attachments/image-1f3cb71f-7089-4597-8c4b-2304d9ec24b5.png)
 
 # DevOPS
 
@@ -19,7 +20,7 @@ All other steps in the process were a [pre-determined pipeline](/Project-Overvie
 
 
 
-![image.png](/.attachments/image-89bea59a-ad78-4de6-a6ad-c7e675d5bfc5.png)
+
 
 
 # DevSecOPS
