@@ -37,7 +37,7 @@ The more changes the repository contains, the more work developers must do befor
 
 _Eventually, the repository may become so different from the developers' baselines that they enter what is sometimes referred to as "merge hell", or "integration hell", where the time it takes to integrate exceeds the time it took to make their original changes._
 
-Whilst the above illustration highlights a dystopian fate for the developer, the **CI pipeline will not alone save the developer** but this needs to be seen as the automation piece that fits into a well thought out [branch strategy](/Project-Overview/Agile-Patterns-and-DevOPS-processes/Branch-Strategy.md) and [agile development practice](/Project-Overview/An-Introduction-to-agile-development-practices/What-is-Agile-Development-practices).
+Whilst the above illustration highlights a dystopian fate for the developer, the **CI pipeline will not alone save the developer** but this needs to be seen as the automation piece that fits into a well thought out [branch strategy](/Project-Overview/Agile-Patterns-and-DevOPS-processes/Branch-Strategy.md) and [agile development practice](/Project-Overview/An-Introduction-to-agile-development-practices/What-is-Agile-Development-practices.md).
 
 
 
@@ -69,6 +69,6 @@ Deploying into a Stage environment is generally meant to provide a pre-productio
 
 ## Production Release
 
-The final stage in the CD pipeline is the release into production, this is as it sounds, once we get to this stage all previous stages of the CI/CD pipeline has successfully completed and it should be safe for the code to now be introduced for consumption.
+The final stage in the CD pipeline is the release into production, this is as it sounds, once we get to this stage all previous stages of the CI/CD pipeline have successfully completed and it should be safe for the code to now be introduced for consumption.
 
 [Back](#javascript:history.back())
