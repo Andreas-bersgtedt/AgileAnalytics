@@ -21,12 +21,10 @@ Below is a set of examples of how this would look in a feature branch scenario:
 # Examples by Target stack
 
 For a step by step example on how to implement this for Azure Data Factory and Synapse Analytics Workspaces [**click here.**](/Project-Overview/Agile-Patterns-and-DevOPS-processes/Branch-Strategy/Azure-Data-Factory-and-Synapse-Analytics-Workspaces.md)
-and for Azure SQL DB in Visual Studio SSDT **click here**. 
+and for Azure SQL DB in Visual Studio SSDT [**click here**](/Project-Overview/Agile-Patterns-and-DevOPS-processes/Branch-Strategy/SQL-Database-projects-in-SSDT.md). 
 
 
 
 
-
-[Back](#javascript:history.back())
 
 
